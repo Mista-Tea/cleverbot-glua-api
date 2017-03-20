@@ -45,7 +45,7 @@ bot:Send( "Hello, world!",
         response = response:gsub( "\n", "" ):gsub( "\r", "" ):gsub( ":", "" ):gsub( ";", "" )
         
         -- Make console say the response
-        game.ConsoleCommand( "say " .. response )
+        game.ConsoleCommand( "say " .. response .. "\n" )
     end,
     function( err ) -- fail
         -- Print out the error message to console
