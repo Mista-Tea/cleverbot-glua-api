@@ -2,6 +2,8 @@
 An OOP implementation of the CleverBot API for gLua (includes non-standard Lua functions).
 Obtain an API key at https://www.cleverbot.com/api/
 
+See the condensed branch if you want to drop this into your own addon https://github.com/Mista-Tea/cleverbot-glua-api/tree/condensed
+
 ## Functions
 ```lua
 -- Creates a new CleverBot instance with the given API key
